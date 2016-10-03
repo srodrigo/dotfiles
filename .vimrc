@@ -1,4 +1,6 @@
 """ Key maps
+" Leader
+let mapleader=","
 
 " Move between windows
 nnoremap <c-j> <c-w>j
@@ -33,6 +35,9 @@ filetype indent on
 set wildmenu
 " Avoid unnecessary redraws
 set lazyredraw
+
+""" Searching
+
 " Search as characters are entered
 set incsearch
 " Highlight search matches
