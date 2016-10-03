@@ -13,3 +13,10 @@ vnoremap jj <Esc>
 
 " Syntax
 syntax enable
+
+""" Spacing
+
+" Visual spaces per tab
+set tabstop=4
+" Spaces per tab when editing
+set softtabstop=4
