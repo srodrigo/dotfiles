@@ -13,6 +13,10 @@ vnoremap jj <Esc>
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
+""" Plugins
+call plug#begin()
+call plug#end()
+
 """ Colours
 
 " Syntax
