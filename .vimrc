@@ -13,10 +13,6 @@ vnoremap jj <Esc>
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
-""" Plugins
-call plug#begin()
-call plug#end()
-
 """ Colours
 
 " Syntax
@@ -46,3 +42,14 @@ set lazyredraw
 set incsearch
 " Highlight search matches
 set hlsearch
+
+""" ----------------------
+""" Plugins
+""" ----------------------
+call plug#begin()
+Plug 'scrooloose/nerdtree'
+call plug#end()
+
+""" Plugins Config
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
