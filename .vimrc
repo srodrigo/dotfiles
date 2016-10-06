@@ -48,8 +48,21 @@ set hlsearch
 """ ----------------------
 call plug#begin()
 Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+""" ----------------------
 """ Plugins Config
-" NERDTree
+""" ----------------------
+
+""" NERDTree
+
 map <C-n> :NERDTreeToggle<CR>
+
+""" VIM Airline
+
+" Make it appear all the time
+set laststatus=2
+" Theme
+let g:airline_theme='papercolor'
