@@ -2,6 +2,11 @@
 " Leader
 let mapleader=","
 
+" Disable arrows
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 " Move between windows
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
