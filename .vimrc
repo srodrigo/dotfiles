@@ -58,6 +58,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/YouCompleteMe'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 """ ----------------------
