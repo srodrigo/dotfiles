@@ -14,7 +14,7 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 " Esc
 inoremap jj <Esc>
-vnoremap jj <Esc>
+vnoremap v <Esc>
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
 
