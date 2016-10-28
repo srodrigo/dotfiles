@@ -60,6 +60,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/YouCompleteMe'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 """ ----------------------
