@@ -78,4 +78,17 @@ map <C-n> :NERDTreeToggle<CR>
 " Make it appear all the time
 set laststatus=2
 " Theme
-let g:airline_theme='papercolor'
+let g:airline_theme='base16_default'
+
+""" ----------------------
+""" General
+""" ----------------------
+" Backspace config
+set backspace=indent,eol,start
+
+" Indentation
+filetype plugin indent on
+set smarttab
+set cindent
+setlocal shiftwidth=2
+setlocal tabstop=2
