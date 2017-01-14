@@ -17,6 +17,8 @@ inoremap jj <Esc>
 vnoremap v <Esc>
 " Disable search highlighting
 nnoremap <leader><space> :nohlsearch<CR>
+" Search for buffers
+map <c-b> <c-p><c-f>
 
 """ Colours
 
