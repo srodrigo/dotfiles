@@ -76,6 +76,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'mxw/vim-jsx'
 Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 """ ----------------------
