@@ -85,6 +85,9 @@ call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
 
+""" CtrlP
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
 """ VIM Airline
 
 " Make it appear all the time
