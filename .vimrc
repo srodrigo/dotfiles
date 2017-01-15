@@ -75,6 +75,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'mxw/vim-jsx'
+Plug 'joukevandermaas/vim-ember-hbs'
 call plug#end()
 
 """ ----------------------
