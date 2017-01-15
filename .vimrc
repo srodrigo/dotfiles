@@ -38,6 +38,9 @@ set shiftwidth=2
 set smarttab
 " Expand tab to spaces
 set expandtab
+" Better indentation in visual mode
+vnoremap > >gv
+vnoremap < <gv
 
 """ UI Config
 
