@@ -25,12 +25,19 @@ map <c-b> <c-p><c-f>
 " Syntax
 syntax enable
 
-""" Spacing
+""" Spacing and Indentation
 
+" Indentation
+filetype plugin indent on
 " Visual spaces per tab
-set tabstop=4
+set tabstop=2
 " Spaces per tab when editing
-set softtabstop=4
+set softtabstop=2
+" Columns when reindenting using << >>
+set shiftwidth=2
+set smarttab
+" Expand tab to spaces
+set expandtab
 
 """ UI Config
 
@@ -88,9 +95,3 @@ let g:airline_theme='base16_default'
 " Backspace config
 set backspace=indent,eol,start
 
-" Indentation
-filetype plugin indent on
-set smarttab
-set cindent
-setlocal shiftwidth=2
-setlocal tabstop=2
