@@ -19,6 +19,8 @@ vnoremap v <Esc>
 nnoremap <leader><space> :nohlsearch<CR>
 " Search for buffers
 map <c-b> <c-p><c-f>
+" Toggle paste from the system
+set pastetoggle=<f5>
 
 """ Colours
 
