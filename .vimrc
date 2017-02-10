@@ -48,6 +48,9 @@ vnoremap < <gv
 
 " Show line numbers
 set number
+" Trailing spaces
+set listchars=trail:·
+set list
 " Load indent files language-specific, located at ~/.vim/indent/
 filetype indent on
 " Auto-complete command menu. Example: :e ~/.vim<TAB>?
