@@ -82,6 +82,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'mxw/vim-jsx'
 Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'mileszs/ack.vim'
+Plug 'kristijanhusak/vim-hybrid-material'
 call plug#end()
 
 """ ----------------------
@@ -100,7 +101,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " Make it appear all the time
 set laststatus=2
 " Theme
-let g:airline_theme='base16_default'
+let g:airline_theme='hybrid'
 
 """ ----------------------
 """ General
@@ -108,3 +109,6 @@ let g:airline_theme='base16_default'
 " Backspace config
 set backspace=indent,eol,start
 
+" Theme
+set background=dark
+colorscheme hybrid_material
