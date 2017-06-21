@@ -55,6 +55,8 @@ set list
 filetype indent on
 " Auto-complete command menu. Example: :e ~/.vim<TAB>?
 set wildmenu
+" Scroll a few lines
+set scrolljump=5
 " Avoid unnecessary redraws
 set lazyredraw
 
