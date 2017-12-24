@@ -18,4 +18,9 @@
     (define-key evil-motion-state-map (kbd "C-h") 'evil-window-left)
     (define-key evil-motion-state-map (kbd "C-l") 'evil-window-right))
 
+(use-package evil-surround
+    :ensure t
+    :config
+    (global-evil-surround-mode 1))
+
 (provide 'init-vim)
