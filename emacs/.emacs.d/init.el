@@ -11,6 +11,9 @@
         (package-refresh-contents)
         (package-install 'use-package)))
 
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 
 (let ((file-name-handler-alist nil))
