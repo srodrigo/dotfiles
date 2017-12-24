@@ -14,4 +14,4 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 
 (let ((file-name-handler-alist nil))
-  (require 'init-vim))
+    (require 'init-vim))
