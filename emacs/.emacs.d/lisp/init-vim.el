@@ -25,11 +25,15 @@
     :config
     (global-evil-surround-mode 1))
 
-(use-package
-    evil-leader
+(use-package evil-leader
     :ensure t
     :config
     (global-evil-leader-mode)
     (evil-leader/set-leader ","))
+
+(use-package evil-nerd-commenter
+    :ensure t
+    :config
+    (evilnc-default-hotkeys))
 
 (provide 'init-vim)
