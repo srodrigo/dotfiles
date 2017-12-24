@@ -25,4 +25,11 @@
     :config
     (global-evil-surround-mode 1))
 
+(use-package
+    evil-leader
+    :ensure t
+    :config
+    (global-evil-leader-mode)
+    (evil-leader/set-leader ","))
+
 (provide 'init-vim)
