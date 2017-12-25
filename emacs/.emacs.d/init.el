@@ -4,6 +4,7 @@
     ("marmalade" . "http://marmalade-repo.org/packages/")
     ("melpa" . "http://melpa.org/packages/")))
 
+(setq package-enable-at-startup nil)
 (package-initialize)
 
 (unless (package-installed-p 'use-package)
@@ -19,4 +20,5 @@
 (let ((file-name-handler-alist nil))
   (require 'init-vim)
   (require 'init-file-explorer)
+  (require 'init-file-finder)
   (require 'init-appearance))
