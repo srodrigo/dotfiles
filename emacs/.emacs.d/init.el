@@ -18,4 +18,5 @@
 
 (let ((file-name-handler-alist nil))
   (require 'init-vim)
-  (require 'init-file-explorer))
+  (require 'init-file-explorer)
+  (require 'init-appearance))
