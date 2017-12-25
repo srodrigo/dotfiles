@@ -22,4 +22,6 @@
   (require 'init-file-explorer)
   (require 'init-file-finder)
   (require 'init-appearance)
-  (require 'init-auto-complete))
+  (require 'init-auto-complete)
+  (require 'init-syntax-check)
+  (require 'init-python))
