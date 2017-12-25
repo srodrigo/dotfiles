@@ -8,9 +8,9 @@
   :config
   (powerline-center-evil-theme))
 
-(use-package airline-themes
+(use-package flycheck-color-mode-line
   :ensure t
   :config
-  (load-theme 'airline-molokai))
+  (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
 
 (provide 'init-appearance)
