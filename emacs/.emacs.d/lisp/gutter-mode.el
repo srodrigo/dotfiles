@@ -1,5 +1,4 @@
-(define-minor-mode
-  gutter-mode
+(define-minor-mode gutter-mode
   :lighter " Gutter"
   :group 'gutter
 
