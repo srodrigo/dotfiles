@@ -8,9 +8,11 @@
   (if programming-mode
     (progn
       (gutter-mode +1)
-      (flycheck-mode +1))
+      (flycheck-mode +1)
+      (rainbow-delimiters-mode +1))
     (progn
       (gutter-mode -1)
-      (flycheck-mode -1))))
+      (flycheck-mode -1)
+      (rainbow-delimiters-mode -1))))
 
 (provide 'programming-mode)

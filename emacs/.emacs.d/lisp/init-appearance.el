@@ -13,4 +13,7 @@
   :config
   (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode))
 
+(use-package rainbow-delimiters
+  :ensure t)
+
 (provide 'init-appearance)
