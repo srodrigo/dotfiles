@@ -16,4 +16,6 @@
 (use-package rainbow-delimiters
   :ensure t)
 
+(setq show-trailing-whitespace t)
+
 (provide 'init-appearance)
