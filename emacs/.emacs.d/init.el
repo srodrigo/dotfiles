@@ -30,3 +30,5 @@
   (require 'init-python))
 
 (setq-default major-mode 'text-mode)
+
+(setq initial-scratch-message nil)
