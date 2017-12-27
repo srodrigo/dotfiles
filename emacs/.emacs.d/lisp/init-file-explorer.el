@@ -15,9 +15,7 @@
     (kbd "R") 'neotree-refresh
     (kbd "i") 'neotree-enter-horizontal-split
     (kbd "s") 'neotree-enter-vertical-split
-    (kbd "m") 'neotree-modify-mode-menu)
-
-  (setq neo-smart-open t))
+    (kbd "m") 'neotree-modify-mode-menu))
 
 (defun neotree-modify-mode-menu (option)
   "Asks for a mode and execute associated Neotree command"
