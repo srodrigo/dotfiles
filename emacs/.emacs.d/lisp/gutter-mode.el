@@ -6,6 +6,7 @@
     :ensure t
     :config
 
+    (evil-leader/set-key "d" 'git-gutter:popup-hunk)
     (evil-leader/set-key "h" 'git-gutter:next-hunk)
     (evil-leader/set-key "H" 'git-gutter:previous-hunk)
     (evil-leader/set-key "z" 'git-gutter:revert-hunk)
@@ -15,6 +16,7 @@
       '(git-gutter:deleted-sign "–")
       '(git-gutter:verbosity 0)
       '(git-gutter:visual-line t)
+      '(git-gutter:ask-p nil)
       '(git-gutter:lighter " GG")))
 
   (display-line-numbers-mode +1)
