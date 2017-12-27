@@ -36,3 +36,5 @@
 (setq inhibit-startup-message t)
 
 (menu-bar-mode -1)
+
+(defalias 'yes-or-no-p 'y-or-n-p)
