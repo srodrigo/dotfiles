@@ -27,3 +27,5 @@
   (require 'init-text)
   (require 'init-el)
   (require 'init-python))
+
+(setq-default major-mode 'text-mode)
