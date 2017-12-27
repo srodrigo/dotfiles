@@ -34,3 +34,5 @@
 (setq initial-scratch-message nil)
 
 (setq inhibit-startup-message t)
+
+(menu-bar-mode -1)
