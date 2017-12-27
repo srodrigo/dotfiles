@@ -21,6 +21,7 @@
   (require 'init-vim)
   (require 'init-file-explorer)
   (require 'init-file-finder)
+  (require 'init-file-search)
   (require 'init-appearance)
   (require 'init-auto-complete)
   (require 'init-syntax-check)
