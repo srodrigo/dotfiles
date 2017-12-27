@@ -24,5 +24,6 @@
   (require 'init-appearance)
   (require 'init-auto-complete)
   (require 'init-syntax-check)
+  (require 'init-text)
   (require 'init-el)
   (require 'init-python))
