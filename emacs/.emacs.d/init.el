@@ -32,3 +32,5 @@
 (setq-default major-mode 'text-mode)
 
 (setq initial-scratch-message nil)
+
+(setq inhibit-startup-message t)
