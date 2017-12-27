@@ -1,4 +1,5 @@
 (require 'programming-mode)
+(require 'gutter-mode)
 
 (use-package elpy
   :ensure t)
@@ -6,6 +7,7 @@
 (elpy-enable)
 
 (add-hook 'python-mode-hook 'programming-mode)
+(add-hook 'python-mode-hook 'gutter-mode)
 
 (add-hook 'flycheck-mode-hook
   (lambda ()
