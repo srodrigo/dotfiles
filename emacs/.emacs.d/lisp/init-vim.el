@@ -18,6 +18,9 @@
   (define-key evil-motion-state-map (kbd "C-h") 'evil-window-left)
   (define-key evil-motion-state-map (kbd "C-l") 'evil-window-right)
 
+  (evil-leader/set-key (kbd "b") 'evil-next-buffer)
+  (evil-leader/set-key (kbd "B") 'evil-next-buffer)
+
   (define-key evil-motion-state-map (kbd "C-z") 'suspend-emacs))
 
 (use-package evil-surround
