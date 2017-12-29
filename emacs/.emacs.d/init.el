@@ -33,10 +33,5 @@
 
 (setq-default major-mode 'text-mode)
 
-(setq initial-scratch-message nil)
-
-(setq inhibit-startup-message t)
-
-(menu-bar-mode -1)
-
-(defalias 'yes-or-no-p 'y-or-n-p)
+(defun display-startup-echo-area-message ()
+  (message (format "Emacs started in %s" (emacs-init-time))))

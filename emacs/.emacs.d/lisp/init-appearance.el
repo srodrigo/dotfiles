@@ -18,4 +18,12 @@
 
 (setq show-trailing-whitespace t)
 
+(setq initial-scratch-message nil)
+
+(setq inhibit-startup-message t)
+
+(menu-bar-mode -1)
+
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (provide 'init-appearance)
