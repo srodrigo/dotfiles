@@ -10,10 +10,12 @@
     (progn
       (flycheck-mode +1)
       (rainbow-delimiters-mode +1)
-      (show-paren-mode +1))
+      (show-paren-mode +1)
+      (origami-mode +1))
     (progn
       (flycheck-mode -1)
       (rainbow-delimiters-mode -1)
-      (show-paren-mode -1))))
+      (show-paren-mode -1)
+      (origami-mode -1))))
 
 (provide 'programming-mode)

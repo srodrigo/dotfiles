@@ -26,6 +26,7 @@
   (require 'init-appearance)
   (require 'init-auto-complete)
   (require 'init-syntax-check)
+  (require 'init-code-folding)
   (require 'clipboard)
   (require 'init-text)
   (require 'init-el)
