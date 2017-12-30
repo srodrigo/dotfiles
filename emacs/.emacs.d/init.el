@@ -30,7 +30,8 @@
   (require 'clipboard)
   (require 'init-text)
   (require 'init-el)
-  (require 'init-python))
+  (require 'init-python)
+  (require 'init-docker))
 
 (setq-default major-mode 'text-mode)
 
