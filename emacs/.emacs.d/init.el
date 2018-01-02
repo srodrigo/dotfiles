@@ -28,6 +28,7 @@
   (require 'init-syntax-check)
   (require 'init-code-folding)
   (require 'clipboard)
+  (require 'init-restclient)
   (require 'init-text)
   (require 'init-el)
   (require 'init-python)
