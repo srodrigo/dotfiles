@@ -16,7 +16,20 @@
 (use-package rainbow-delimiters
   :ensure t)
 
-(setq show-trailing-whitespace t)
+(use-package whitespace
+  :ensure t
+
+  :config
+  (progn
+    (setq whitespace-style '(face
+                             trailing
+                             space-after-tab::tab
+                             space-before-tab::tab))
+    (setq whitespace-display-mappings '((space-mark 32 [183] [46])))
+    (set-face-attribute 'whitespace-trailing nil :background "magenta")
+    (evil-leader/set-key "w" 'whitespace-cleanup)))
+
+(global-whitespace-mode +1)
 
 (setq initial-scratch-message nil)
 
