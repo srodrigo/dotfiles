@@ -32,7 +32,8 @@
   (require 'init-text)
   (require 'init-el)
   (require 'init-python)
-  (require 'init-docker))
+  (require 'init-docker)
+  (require 'init-bash))
 
 (setq-default major-mode 'text-mode)
 
