@@ -5,6 +5,8 @@
   (global-set-key (kbd "C-n") 'neotree-toggle)
   (define-key evil-normal-state-map (kbd "C-n") 'neotree-toggle)
 
+  (setq neo-hidden-regexp-list '("^\\." "\\.cs\\.meta$" "\\.pyc$" "__pycache__" "~$" "^#.*#$" "\\.elc$"))
+
   (evil-define-key
     'normal neotree-mode-map
     (kbd "SPC") 'neotree-quick-look
