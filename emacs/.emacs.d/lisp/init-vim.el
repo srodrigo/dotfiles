@@ -1,6 +1,11 @@
 (use-package key-chord
+  :ensure t)
+
+(use-package evil-leader
   :ensure t
-  :init)
+  :config
+  (global-evil-leader-mode)
+  (evil-leader/set-leader ","))
 
 (use-package evil
   :ensure t
@@ -27,12 +32,6 @@
   :ensure t
   :config
   (global-evil-surround-mode 1))
-
-(use-package evil-leader
-  :ensure t
-  :config
-  (global-evil-leader-mode)
-  (evil-leader/set-leader ","))
 
 (use-package evil-nerd-commenter
   :ensure t
