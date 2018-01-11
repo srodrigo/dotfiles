@@ -32,6 +32,7 @@
   (require 'init-text)
   (require 'init-el)
   (require 'init-python)
+  (require 'init-javascript)
   (require 'init-docker)
   (require 'init-bash))
 
