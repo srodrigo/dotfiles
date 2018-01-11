@@ -34,6 +34,7 @@
   (require 'init-python)
   (require 'init-javascript)
   (require 'init-docker)
+  (require 'init-yaml)
   (require 'init-bash))
 
 (setq-default major-mode 'text-mode)
