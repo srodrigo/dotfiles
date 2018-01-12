@@ -37,7 +37,9 @@
   (require 'init-yaml)
   (require 'init-bash))
 
-(setq-default major-mode 'text-mode)
+(setq-default
+  major-mode 'text-mode
+  indent-tabs-mode nil)
 
 (defun display-startup-echo-area-message ()
   (message (format "Emacs started in %s" (emacs-init-time))))

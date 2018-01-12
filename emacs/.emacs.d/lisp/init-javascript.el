@@ -13,6 +13,8 @@
         js2-bounce-indent-p t
         js2-assume-strict t
         sgml-basic-offset 2
+        tab-width 2
+        indent-line-function 'insert-tab
         js2-strict-missing-semi-warning nil)
 
   (add-hook 'js-mode-hook 'programming-mode)
