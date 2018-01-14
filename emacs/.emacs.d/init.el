@@ -18,6 +18,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 
 (let ((file-name-handler-alist nil))
+  (require 'encoding)
   (require 'buffers)
   (require 'init-vim)
   (require 'init-file-explorer)
