@@ -36,6 +36,7 @@
   (require 'init-javascript)
   (require 'init-docker)
   (require 'init-yaml)
+  (require 'init-markdown)
   (require 'init-bash))
 
 (setq-default
