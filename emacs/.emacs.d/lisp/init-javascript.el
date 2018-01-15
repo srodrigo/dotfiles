@@ -28,16 +28,6 @@
         (flycheck-add-mode 'javascript-standard 'js2-jsx-mode)
         (add-to-list 'flycheck-disabled-checkers 'javascript-eslint)))))
 
-(use-package web-mode
-  :ensure t
-  :mode "\\.x?html?$"
-  :config
-  (setq
-    web-mode-markup-indent-offset 2
-    web-mode-code-indent-offset 2)
-  (add-hook 'web-mode-hook 'programming-mode)
-  (add-hook 'web-mode-hook 'gutter-mode))
-
 (use-package tern
   :defer t
   :config
