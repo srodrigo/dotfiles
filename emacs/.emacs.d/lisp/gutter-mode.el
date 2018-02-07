@@ -19,7 +19,12 @@
       '(git-gutter:ask-p nil)
       '(git-gutter:lighter " GG")))
 
-  (display-line-numbers-mode +1)
-  (git-gutter-mode +1))
+  (if gutter-mode
+    (progn
+      (display-line-numbers-mode +1)
+      (git-gutter-mode +1))
+    (progn
+      (display-line-numbers-mode -1)
+      (git-gutter-mode -1))))
 
 (provide 'gutter-mode)
