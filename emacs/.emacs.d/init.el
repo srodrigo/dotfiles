@@ -44,7 +44,8 @@
 
 (setq-default
   major-mode 'text-mode
-  indent-tabs-mode nil)
+  indent-tabs-mode nil
+  tab-width 4)
 
 (defun display-startup-echo-area-message ()
   (message (format "Emacs started in %s" (emacs-init-time))))
