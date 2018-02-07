@@ -35,6 +35,7 @@
   (require 'init-python)
   (require 'init-ruby)
   (require 'init-javascript)
+  (require 'init-golang)
   (require 'init-markup)
   (require 'init-docker)
   (require 'init-yaml)
