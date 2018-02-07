@@ -33,6 +33,7 @@
   (require 'init-text)
   (require 'init-el)
   (require 'init-python)
+  (require 'init-ruby)
   (require 'init-javascript)
   (require 'init-markup)
   (require 'init-docker)
