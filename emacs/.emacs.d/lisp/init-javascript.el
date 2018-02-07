@@ -26,7 +26,12 @@
       (progn
         (flycheck-add-mode 'javascript-standard 'js2-mode)
         (flycheck-add-mode 'javascript-standard 'js2-jsx-mode)
-        (add-to-list 'flycheck-disabled-checkers 'javascript-eslint)))))
+        (add-to-list 'flycheck-disabled-checkers 'javascript-eslint))))
+
+  (add-hook 'js-mode-hook
+    (lambda ()
+      (set (make-local-variable 'compile-command) "yarn test:unit")))
+  (evil-leader/set-key "t" 'compile))
 
 (use-package tern
   :defer t
