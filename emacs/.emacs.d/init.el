@@ -34,6 +34,7 @@
   (require 'init-el)
   (require 'init-python)
   (require 'init-ruby)
+  (require 'init-cucumber)
   (require 'init-javascript)
   (require 'init-golang)
   (require 'init-markup)
