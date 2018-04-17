@@ -17,7 +17,9 @@
     (kbd "R") 'neotree-refresh
     (kbd "i") 'neotree-enter-horizontal-split
     (kbd "s") 'neotree-enter-vertical-split
-    (kbd "m") 'neotree-modify-mode-menu))
+    (kbd "m") 'neotree-modify-mode-menu)
+
+  (evil-leader/set-key (kbd "ff") 'neotree-find))
 
 (defun neotree-modify-mode-menu (option)
   "Asks for a mode and execute associated Neotree command"
