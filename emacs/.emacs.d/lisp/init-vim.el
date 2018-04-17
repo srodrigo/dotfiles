@@ -14,7 +14,7 @@
 
   ; Remap escape
   (setq key-chord-two-keys-delay 0.3)
-  (key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+  (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
   (key-chord-mode 1)
 
   ; Navigate between windows
