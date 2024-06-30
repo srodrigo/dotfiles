@@ -13,6 +13,8 @@ vim.keymap.set("n", "<A-l>", ":bnext<CR>", opts)
 vim.keymap.set("n", "<A-h>", ":bprevious<CR>", opts)
 vim.keymap.set("n", "<A-j>", "<C-^>", opts)
 vim.keymap.set("n", "<A-k>", "<C-^>", opts)
+-- Paste yanked text without overwriting the system clipboard
+vim.keymap.set("v", "p", '"_dP', opts)
 
 vim.keymap.del("n", "<leader>w-")
 vim.keymap.del("n", "<leader>w|")
