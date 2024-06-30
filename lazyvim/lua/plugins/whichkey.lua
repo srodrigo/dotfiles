@@ -12,7 +12,11 @@ return {
         ["]"] = { name = "+next" },
         ["["] = { name = "+prev" },
         ["<leader><tab>"] = { name = "+tabs" },
-        ["<leader>b"] = { name = "+buffer" },
+        ["<leader>b"] = {
+          name = "+buffer",
+          c = { "<cmd>BufferLinePickClose<cr>", "Pick Close" },
+          s = { "<cmd>BufferLinePick<cr>", "Pick" },
+        },
         ["<leader>c"] = { name = "+code" },
         ["<leader>f"] = { name = "+file/find" },
         ["<leader>g"] = { name = "+git", D = { "<cmd>:tab Git<cr>", "Open Diff View" } },
