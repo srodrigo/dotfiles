@@ -35,7 +35,7 @@ return {
   },
   opts = {
     defaults = {
-      layout_config = { horizontal = { width = 0.95 } },
+      layout_config = { horizontal = { width = 0.95, height = 0.95 } },
     },
   },
 }
