@@ -17,7 +17,17 @@ return {
           c = { "<cmd>BufferLinePickClose<cr>", "Pick Close" },
           s = { "<cmd>BufferLinePick<cr>", "Pick" },
         },
-        ["<leader>c"] = { name = "+code" },
+        ["<leader>c"] = {
+          name = "+code",
+          j = {
+            "<cmd>lua vim.diagnostic.goto_next()<cr>",
+            "Next Diagnostic",
+          },
+          k = {
+            "<cmd>lua vim.diagnostic.goto_prev()<cr>",
+            "Prev Diagnostic",
+          },
+        },
         ["<leader>f"] = { name = "+file/find" },
         ["<leader>g"] = { name = "+git", D = { "<cmd>:tab Git<cr>", "Open Diff View" } },
         ["<leader>gh"] = { name = "+hunks", ["_"] = "which_key_ignore" },
