@@ -22,7 +22,10 @@ return {
         ["<leader>g"] = { name = "+git", D = { "<cmd>:tab Git<cr>", "Open Diff View" } },
         ["<leader>gh"] = { name = "+hunks", ["_"] = "which_key_ignore" },
         ["<leader>q"] = { name = "+quit/session" },
-        ["<leader>s"] = { name = "+search" },
+        ["<leader>s"] = {
+          name = "+search",
+          f = { "<cmd>Telescope live_grep_args<cr>", "Grep With Args" },
+        },
         ["<leader>u"] = { name = "+ui" },
         ["<leader>t"] = {
           name = "+terminal",
