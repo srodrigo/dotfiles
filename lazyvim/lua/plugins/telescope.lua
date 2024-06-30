@@ -33,4 +33,9 @@ return {
     { "<leader>fh", LazyVim.pick("auto", { hidden = true }), desc = "Find Files (Hidden) (Root Dir)" },
     { "<leader>fH", LazyVim.pick("auto", { hidden = true, root = false }), desc = "Find Files (Hidden) (cwd)" },
   },
+  opts = {
+    defaults = {
+      layout_config = { horizontal = { width = 0.95 } },
+    },
+  },
 }
