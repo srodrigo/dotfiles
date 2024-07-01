@@ -39,6 +39,12 @@ return {
   opts = {
     defaults = {
       layout_config = { horizontal = { width = 0.95, height = 0.95 } },
+      mappings = {
+        i = {
+          ["<S-Down>"] = require("telescope.actions").cycle_history_next,
+          ["<S-Up>"] = require("telescope.actions").cycle_history_prev,
+        },
+      },
     },
   },
 }
