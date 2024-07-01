@@ -30,8 +30,11 @@ return {
     { "<leader>-", false },
     { "<leader>`", false },
     { "<leader>|", false },
-    { "<leader>fh", LazyVim.pick("auto", { hidden = true }), desc = "Find Files (Hidden) (Root Dir)" },
-    { "<leader>fH", LazyVim.pick("auto", { hidden = true, root = false }), desc = "Find Files (Hidden) (cwd)" },
+    {
+      "<leader>fh",
+      "<cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files', '--ignore-case', '--hidden', '--no-ignore', '-g', '!.git'} })<cr>",
+      desc = "Find Files (h/giti) (Root Dir)",
+    },
   },
   opts = {
     defaults = {
