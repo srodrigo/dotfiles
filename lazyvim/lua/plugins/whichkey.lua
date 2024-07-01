@@ -16,6 +16,8 @@ return {
           name = "+buffer",
           c = { "<cmd>BufferLinePickClose<cr>", "Pick Close" },
           s = { "<cmd>BufferLinePick<cr>", "Pick" },
+          j = { "<C-^><cr>", "Prev Buffer" },
+          k = { "<C-^><cr>", "Next Buffer" },
         },
         ["<leader>c"] = {
           name = "+code",
