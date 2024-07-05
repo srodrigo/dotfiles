@@ -41,6 +41,7 @@ return {
         ["<leader>u"] = { name = "+ui" },
         ["<leader>t"] = {
           name = "+terminal",
+          b = { "<cmd>:terminal<cr>", "Buffer" },
           n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },
           u = { "<cmd>lua _NCDU_TOGGLE()<cr>", "NCDU" },
           t = { "<cmd>lua _HTOP_TOGGLE()<cr>", "Htop" },
