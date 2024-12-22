@@ -19,5 +19,9 @@ local add = MiniDeps.add
 
 -- Add to current session (install if absent)
 add({
-  source = 'gbprod/nord.nvim',
+  source = "gbprod/nord.nvim",
+})
+
+add({
+  source = "tpope/vim-surround",
 })
