@@ -8,10 +8,14 @@ map("i", "jk", "<esc>")
 -- Clear search with <esc>
 map({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>", { desc = "Escape and Clear hlsearch" })
 
+-- Better indenting
+map("v", "<", "<gv")
+map("v", ">", ">gv")
+
 -- [[ Buffers ]] --
 
 -- Select buffer
-map("n", "<C-b>", "<cmd>buffers<cr>buffer<space>", { desc = "Search [b]uffers" })
+map("n", "<leader>bb", ":buffers<cr>:buffer<space>", { desc = "Search [b]uffers", noremap = true, silent = false })
 
 -- [[ Windows ]] --
 
@@ -39,4 +43,7 @@ map("n", "<C-w>m", "<C-w>|<C-w>_", { desc = "Maximise Window" })
 -- [[ Terminal ]] --
 
 -- This overrides the default <C-\><C-n>
-map('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+map("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+
+-- [[ Tree explorer ]] --
+map("n", "<leader>e", "<cmd>Lexplore<cr>", { desc = "Tree [E]xplorer Toggle" })
